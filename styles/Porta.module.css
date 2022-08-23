@@ -1,0 +1,114 @@
+.BaseEporta{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 25px;
+}
+.batente{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: column;
+    width: 230px;
+    height: 374px;
+    border: 10px  solid rgb(232, 148, 37);
+    border-bottom: 0px;
+    background-color: #0093E9;
+   background-image: linear-gradient(160deg, #0093E9 0%, #80D0C7 100%);
+  
+}
+.presente{
+    position: relative;
+    top: 275px;
+    
+    
+}
+
+.porta{
+    width: 200px;
+    height: 350px;
+    background-color: rgb(247, 175, 81);
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+    position: absolute;
+}
+.borda{
+    position: absolute;
+    width: 210px;
+    height: 360px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transform-origin: right;
+    transition: all 0.5s ease-in-out;
+    background-color: rgb(185, 115, 22);
+}
+.numero{
+    width: 100%;
+    text-align: center;
+    font-size: 2.7rem;
+    font-weight: 700;
+    color: rgb(233, 55, 55);
+}
+
+.containerPorta{
+    width: 100%;
+    height: 50%;
+}
+.meioPorta{
+    width: 100%;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    
+  
+}
+.macaneta{
+    position: relative;
+    width: 60px;
+    height: 20px;
+    display: flex;
+    align-items: center;
+    margin-left: 5px;
+    cursor: pointer;
+}
+.macaneta1{
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: #6d6d6d; 
+    margin: 0px;
+}
+.macaneta2{
+    right: 15px;
+    position: absolute;
+    width: 35px;
+    height: 8px;
+    background-color: #8f8f8f ;
+    border-radius: 20%;
+    margin: 0px;
+
+}
+.base{
+    width: 260px;
+    height: 10px;
+    background-color: rgba(119, 119, 119, 0.92);
+}
+.rodar{
+    
+    transform: perspective(1200px) translateZ(0px) translateX(0px) translateY(0px) rotateY(105deg);
+
+    
+}
+   
+.selecionada .numero{
+    color: #fcf803ee;
+}
+.shadow {
+    -webkit-box-shadow: 0px -9px 38px 28px #fcf803ee; 
+    box-shadow: 0px -9px 38px 28px #fcf803ee;
+    
+} 
+

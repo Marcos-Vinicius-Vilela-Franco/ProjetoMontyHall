@@ -1,0 +1,14 @@
+.cartao{
+    display: flex;
+    width: 300px;
+    height: 300px;
+    color: white;
+    margin: 3px;
+    padding: 20px;
+    font-size: 2rem;
+}
+.cartao:hover{
+    transform: scale(1); 
+    transition: ease 0.2s;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.6);
+}
